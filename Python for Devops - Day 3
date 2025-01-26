@@ -1,0 +1,16 @@
+import sys
+
+type = sys.argv[1]
+
+if type == "t2.micro":
+   print("Okay!, we will create the instance for you!")
+elseif:
+   print("This will charge you 4 dollars")
+elseif:
+   print("This will charge you 8 dollars")
+else:
+   print("Please provide a valid instance_type")
+
+
+list:
+s3_bucket_list = ["abhishek_demo_buckets", "neo_bucket_list", "tim_bucket_list"
