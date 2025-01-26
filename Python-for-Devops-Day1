@@ -1,0 +1,21 @@
+arn = ""
+print(arn.split("/"))
+
+
+text = "sone spaces around"
+stripped_text = text.strip()
+print("Stripped_text:", stripped_text)
+
+import re --> stand for a particular pattern called "qwick"
+import re
+text = "the quick brown fox"
+pattern = r"quick"
+
+match = re.match(pattern,text)
+if match:
+   print("Match Found:", match.group())
+else:
+   print("No Match")
+
+
+  
