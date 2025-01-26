@@ -1,0 +1,27 @@
+sys.argv[1]
+sys.argv[2]
+
+import sys
+
+def addition(num1, num2):
+   add = num1 + num2
+   return add
+
+def sub(num1,num2):
+  sub = num1 - num2
+  return sub
+
+def mul(num1, num2):
+  mul = num1 * num2
+  return mul
+
+num1 = sys.argv[1]
+operation = sys.argv[2]
+num2 = sys.argv[3]
+
+if operation = def add(num1,num2) #by default arguments are read as strings
+  output = add(num1, num2)
+  print(output)
+
+print(os.getenv("password"))
+print(os.getenv("apitoken"))
