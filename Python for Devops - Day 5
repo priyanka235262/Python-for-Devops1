@@ -1,0 +1,16 @@
+Difference between lists and tuple
+
+s3_bucket_list = ["abhishek_demo_bucket", "remo_demo_bucket","demo_1_bucket"]
+s3_bucket_list.append("new_s3_bucket")
+print(s3_bucket_lists)
+
+s3_bucket_list = ["abhishek_demo_bucket", "remo_demo_bucket","demo_1_bucket","john_demo_buckets"]
+print(len(s3_bucket_list)
+
+s3_bucket_lists.append("s3_bucket_list")
+print(len(s3_bucket_lists)
+
+s3_bucket_lists.remove("s3_bucket_list")
+print(len(s3_bucket_list)
+
+ 
