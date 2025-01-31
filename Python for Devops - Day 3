@@ -14,3 +14,18 @@ else:
 
 list:
 s3_bucket_list = ["abhishek_demo_buckets", "neo_bucket_list", "tim_bucket_list"
+
+
+Packages: Collection of modules
+ PUPI: Python modules are stored
+
+Virtual Env: Will do a logical seperation.
+
+Installation --> pip install virtualenv
+python -m venv project-abc
+Once create different projects> ssh into it> and then run --> source  project-abc/bin/activate
+pip install jira
+pip list | grep jira
+deactivate --> coming out if virtual env
+
+
