@@ -1,0 +1,27 @@
+sys.argv[1]
+import sys
+
+For integer value you will need to give :
+int(sys.argv[1])
+
+Env Vars: used for sensitive information such as API keys, passwords Token, certificate, etc
+export password="abhishke"
+os.getenv("password")
+export apitoken = ""
+print(os.getenv("apitoken")
+CICD, CronJB, Automation
+
+import os
+
+password = os.getenv("password")
+print(os.getenv("apitoken"))
+
+
+import os
+type = sys.argv[1]
+
+if type == "t2.micro"
+   print("ok,we will create the instance for you")
+esle:
+   print("Your input is not t2.micro,hence we cannot create the instance)
+
