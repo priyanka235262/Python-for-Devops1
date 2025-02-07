@@ -1,0 +1,13 @@
+server_config:
+ 'server 1': {'ip':'192.168.1.1', 'port': 8000, 'status': 'active'},
+ 'server 2': {'ip': '192.168.1.2', 'port': 8000, 'status': 'inactive'},
+ 'server 3': {'ip': '192.168.1.3', 'port': 8000, 'status': 'active'}
+}
+def get_server_status(server_name):
+  return server_config.get(server_name, {}).get('Status', 'Server not Found')
+
+
+server_name = 'server 2'
+status = get_server_status(server_name)
+print(f"{server_name} status: {status}")
+
