@@ -1,0 +1,23 @@
+my_list = [0,4,6,8]
+print(my_list[4])
+
+Common Operations:
+Adding Elements:
+
+Lists use append() or insert() methods.
+Sets use add() method.
+Removing Elements:
+
+Lists use remove(), pop(), or del statement.
+Sets use remove() or discard() methods.
+
+Use Lists When:
+
+You need to maintain the order of elements.
+Duplicate elements are allowed.
+You need to access elements by index.
+Use Sets When:
+
+Order doesn't matter.
+You want to ensure unique elements.
+You need to perform set operations like union, intersection, or difference.
